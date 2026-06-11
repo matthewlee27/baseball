@@ -37,4 +37,4 @@ class PlayerDataset(Dataset):
         return len(self.X)
     
     def __getitem__(self, idx):
-        return self.X[idx], self.Y[idx]
+        return self.X[idx], self.y[idx]
