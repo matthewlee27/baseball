@@ -1,9 +1,10 @@
+import os
+import sys
+
 import pandas as pd
 import numpy as np
 
-from pybaseball import statcast
-from pybaseball import  playerid_lookup
-from pybaseball import  statcast_batter
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from playerdata import pull_player_outcomes, PlayerDataset
 
 
